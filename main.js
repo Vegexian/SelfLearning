@@ -8,4 +8,7 @@ const ranNum = Math.floor(Math.random()*10 + 1);              // Any random numb
 
 const numberPrompt = () => {
     alert (ranNum);
+    window.location.reload(false);
+    
 }
+
